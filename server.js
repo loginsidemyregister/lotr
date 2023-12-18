@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 80; // Default HTTP port
+const port = 22; // Default HTTP port
 
 app.get('/', (req, res) => {
   res.send('hi');
